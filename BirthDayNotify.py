@@ -19,7 +19,7 @@ def input_Name():
         file2.write("\n")
         file2.write(str(inp_date))
         
-def input_DOB():
+def list_DOB():
 
     print("\n\nList:")
     with open("log.txt","r") as file3, open("date.txt","r") as file4:
@@ -58,7 +58,7 @@ if keyPress=="y":
         		input_Name()
     
     		elif choice=="2":
-        		input_DOB()
+        		list_DOB()
 
     		elif choice=="3":
         		print("\nQuitting",end="",flush=True)
